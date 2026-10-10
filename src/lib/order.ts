@@ -7,9 +7,9 @@ export interface Product {
   imageAlt: string;
 }
 
-export const PHONE_DISPLAY = "0717628421";
-export const PHONE_TEL = "tel:+212717628421";
-export const WHATSAPP_BASE = "https://wa.me/212717628421";
+export const PHONE_DISPLAY = "#";
+export const PHONE_TEL = "#";
+export const WHATSAPP_BASE = "#";
 export const INSTAGRAM_HANDLE = "@hajar__flan";
 export const INSTAGRAM_URL = "https://www.instagram.com/hajar__flan/";
 export const UNIT_PRICE = 11;
@@ -29,4 +29,4 @@ export function orderMessage(quantity: number, unitPrice = UNIT_PRICE, lang: "fr
 }
 
 export const whatsappLink = (message?: string) =>
-  message ? `${WHATSAPP_BASE}?text=${encodeURIComponent(message)}` : WHATSAPP_BASE;
+  WHATSAPP_BASE === "#" ? "#" : message ? `${WHATSAPP_BASE}?text=${encodeURIComponent(message)}` : WHATSAPP_BASE;

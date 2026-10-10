@@ -11,6 +11,6 @@ describe("order", () => {
     expect(orderMessage(3)).toBe(
       "Bonjour HAJAR FLAN ! Je souhaite commander 3 flans à 11 DH l'unité, soit un total de 33 DH. Merci !",
     ));
-  it("targets the right number", () =>
-    expect(whatsappLink("x")).toBe("https://wa.me/212717628421?text=x"));
+  it("targets the right number or placeholder", () =>
+    expect(whatsappLink("x")).toBe("#"));
 });
