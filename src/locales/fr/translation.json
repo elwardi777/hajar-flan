@@ -1,0 +1,19 @@
+{
+  "nav": { "aria": "Navigation principale", "home": "Accueil", "flans": "Nos Flans", "story": "Notre Histoire", "gallery": "Galerie", "location": "Localisation", "order": "Commander", "openMenu": "Ouvrir le menu", "closeMenu": "Fermer le menu", "brand": "Hajar Flan", "logoAlt": "Logo HAJAR FLAN", "language": "Choisir la langue" },
+  "hero": { "badge": "Flan artisanal vénézuélien", "title": "HAJAR FLAN", "tagline": "— Une douceur qui fait fondre les cœurs !", "text": "Découvrez notre délicieux flan artisanal vénézuélien, une douceur gourmande à savourer et à partager.", "order": "Commander maintenant", "discover": "Découvrir nos flans", "imageAlt": "Flan au caramel brillant sur une assiette", "perFlan": "/ flan" },
+  "currency": "DH",
+  "product": { "name": "Flan artisanal vénézuélien", "description": "Une texture fondante sublimée par un délicieux caramel.", "imageAlt": "Flan vénézuélien nappé de caramel", "cta": "Commander ce flan" },
+  "products": { "eyebrow": "Nos Flans", "title": "Le goût du Venezuela" },
+  "why": { "eyebrow": "Pourquoi nous", "title": "Pourquoi HAJAR FLAN ?", "items": [
+    { "title": "Une douceur gourmande", "text": "Un dessert généreux pour tous les gourmands." },
+    { "title": "Une texture fondante", "text": "Onctueux et soyeux à chaque cuillère." },
+    { "title": "Un plaisir à partager", "text": "Parfait en famille ou entre amis." },
+    { "title": "Une présentation soignée", "text": "Préparé et présenté avec attention." }
+  ] },
+  "about": { "eyebrow": "Notre Histoire", "title": "Bienvenue chez HAJAR FLAN !", "text": "Nous vous invitons à découvrir l'univers gourmand du flan vénézuélien, une douceur délicate pensée pour accompagner vos moments de plaisir.", "imageAlt": "Hajar derrière son stand HAJAR FLAN" },
+  "gallery": { "eyebrow": "Galerie", "title": "Un régal pour les yeux", "enlarge": "Agrandir : {label}", "close": "Fermer", "items": ["Flan au caramel", "Le stand HAJAR FLAN", "Logo HAJAR FLAN", "Part de flan nappée de caramel", "Détail du chariot HAJAR FLAN", "Flan vénézuélien"] },
+  "order": { "eyebrow": "Commande", "title": "Commandez sur WhatsApp", "unit": "{price} DH l'unité", "quantity": "Quantité", "remove": "Retirer un flan", "add": "Ajouter un flan", "total": "Total", "send": "Envoyer ma commande sur WhatsApp", "note": "Votre demande sera confirmée par HAJAR FLAN sur WhatsApp." },
+  "location": { "eyebrow": "Notre emplacement", "title": "Retrouvez notre kiosque !", "badge": "Deroua, à côté du Jardin de Makhlouf", "name": "HAJAR FLAN — À côté du Jardin de Makhlouf", "text": "Retrouvez notre charrette de flan à côté du Jardin de Makhlouf, à Deroua.", "open": "Ouvrir dans Google Maps", "caption": "Votre pause gourmande vous attend !", "mapTitle": "Carte HAJAR FLAN — À côté du Jardin de Makhlouf", "mapBadge": "HAJAR FLAN" },
+  "footer": { "eyebrow": "Un peu de caramel, beaucoup d'amour", "headline1": "On vous garde", "headline2": "une part de bonheur ?", "cta": "Je commande", "homeAria": "HAJAR FLAN — Accueil", "tagline": "Le goût du Venezuela", "text": "Une douceur fondante, un caramel généreux et le plaisir de partager.", "discover": "À découvrir", "contact": "Restons proches", "brandName": "HAJAR FLAN", "wordmark": "HAJAR FLAN", "location": "À côté du Jardin de Makhlouf, Deroua", "instagramAria": "HAJAR FLAN sur Instagram", "whatsappAria": "Écrire sur WhatsApp", "callAria": "Appeler HAJAR FLAN", "call": "Appeler", "rights": "© {year} HAJAR FLAN. Tous droits réservés.", "madeWith": "Fait avec", "andCaramel": "et du caramel", "heartTitle": "Offrez un peu d'amour", "heartAria": "Offrez un peu d'amour à HAJAR FLAN" },
+  "floating": { "top": "Remonter en haut de la page", "whatsapp": "Contacter HAJAR FLAN sur WhatsApp" }
+}

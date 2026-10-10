@@ -1,0 +1,21 @@
+# Website polish
+- [x] Replace the site logo with the uploaded transparent logo.
+- [x] Redesign the footer and add tasteful site effects with reduced-motion support.
+- [x] Verify logo, footer links, and effects in the preview.
+- [x] Use the uploaded photo of Hajar at her stand as the large image in "Notre Histoire".
+- [x] Use the new logo as the browser-tab icon (favicon + apple-touch-icon).
+- [x] Verify the new photo and tab icon in the preview.
+- [x] Add an animated effect to the hero photo (breathing zoom, glow, drifting panel, sparkles, shine sweep).
+- [x] Keep the WhatsApp button as the plain green circle, with the scroll-up button above it (both in the floating stack).
+- [x] Center the logo in the "Notre Histoire" section.
+- [x] Verify the hero effects, the restored WhatsApp button, and the centered logo in the preview.
+- [x] Remove the round up-arrow button from the footer bar (the floating scroll-up above WhatsApp stays).
+- [x] Animate the big "HAJAR FLAN" footer text with a travelling shine and a gentle letter wave (reduced-motion safe).
+- [x] Center the "Fait avec ❤ et du caramel" line and make the heart interactive (beats on hover, sprinkles hearts on click).
+- [x] Show the full photo of Hajar at her stand in "Notre Histoire" — nothing cut off (Arabic location text and cart wheel both visible).
+- [x] Remove the red pin icon from the location badge text (French and Arabic).
+- [x] Fix the "useI18n must be used inside LanguageProvider" crash: provider mounted in the root route, language context split into its own module, and useI18n falls back to French instead of blanking the page.
+- [x] Remove the Latin brand name from the Arabic version (hero title, footer brand line, map badge) — Arabic shows هاجر فلان.
+- [x] Remove the coordinates line (33°22'39.5"N 7°32'09.8"W) from the location card.
+- [x] Center the "Ouvrir dans Google Maps" button and its caption in the location section (French and Arabic).
+- [x] Make the big animated footer title show هاجر فلان in the Arabic version (HAJAR FLAN stays in French), animating by word so the Arabic script stays connected.
