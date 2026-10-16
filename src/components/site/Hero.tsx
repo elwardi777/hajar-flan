@@ -45,9 +45,12 @@ export function Hero() {
           </div>
           <Sparkles className="hero-sparkle absolute -top-3 end-8 h-7 w-7 text-accent" aria-hidden />
           <Sparkles className="hero-sparkle hero-sparkle-2 absolute end-2 bottom-16 h-4 w-4 text-primary" aria-hidden />
-          <div className="price-float absolute -bottom-6 -start-4 flex h-32 w-32 rotate-[-10deg] flex-col items-center justify-center rounded-full bg-primary text-primary-foreground shadow-deep sm:-start-8 sm:h-36 sm:w-36">
-            <span className="font-display text-4xl font-bold sm:text-5xl">{UNIT_PRICE} {t("currency")}</span>
-            <span className="text-sm font-medium">{t("hero.perFlan")}</span>
+          <div className="price-float absolute -bottom-6 -start-4 flex h-32 w-32 rotate-[-10deg] flex-col items-center justify-center rounded-full bg-primary p-2 text-center text-primary-foreground shadow-deep select-none sm:-start-8 sm:h-36 sm:w-36">
+            <div className="flex items-baseline justify-center gap-1 font-display leading-none">
+              <span className="text-3xl font-bold tracking-tight sm:text-4xl">{UNIT_PRICE}</span>
+              <span className="text-base font-semibold sm:text-lg">{t("currency")}</span>
+            </div>
+            <span className="mt-1 text-xs font-medium text-primary-foreground/90 sm:text-sm">{t("hero.perFlan")}</span>
           </div>
         </motion.div>
       </div>

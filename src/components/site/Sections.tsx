@@ -82,7 +82,14 @@ export function About() {
   );
 }
 
-const gallery = [media.flan1, media.stand, media.logo, media.flan2, media.standDetail, media.flan3];
+const gallery = [
+  media.gallery1,
+  media.gallery2,
+  media.gallery3,
+  media.gallery4,
+  media.gallery5,
+  media.stand,
+];
 
 export function Gallery() {
   const [active, setActive] = useState<number | null>(null);

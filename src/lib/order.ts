@@ -7,12 +7,12 @@ export interface Product {
   imageAlt: string;
 }
 
-export const PHONE_DISPLAY = "#";
-export const PHONE_TEL = "#";
-export const WHATSAPP_BASE = "#";
+export const PHONE_DISPLAY = "+212 691-260574";
+export const PHONE_TEL = "tel:+212691260574";
+export const WHATSAPP_BASE = "https://wa.me/212691260574";
 export const INSTAGRAM_HANDLE = "@hajar__flan";
 export const INSTAGRAM_URL = "https://www.instagram.com/hajar__flan/";
-export const UNIT_PRICE = 11;
+export const UNIT_PRICE = 15;
 
 export const clampQuantity = (q: number) => (Number.isFinite(q) ? Math.max(1, Math.floor(q)) : 1);
 
@@ -29,4 +29,8 @@ export function orderMessage(quantity: number, unitPrice = UNIT_PRICE, lang: "fr
 }
 
 export const whatsappLink = (message?: string) =>
-  WHATSAPP_BASE === "#" ? "#" : message ? `${WHATSAPP_BASE}?text=${encodeURIComponent(message)}` : WHATSAPP_BASE;
+  WHATSAPP_BASE === "#"
+    ? "#"
+    : message
+      ? `${WHATSAPP_BASE}?text=${encodeURIComponent(message)}`
+      : WHATSAPP_BASE;

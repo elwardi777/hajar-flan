@@ -4,12 +4,17 @@ import { UNIT_PRICE } from "@/lib/order";
 
 export const media = {
   logo: "/logo.png",
-  stand: "/stand.png",
+  stand: "/pic.jfif",
   standDetail: "/stand-detail.png",
   hajar: "/hajar-stand.png",
-  flan1: "/flan-1.jpg",
-  flan2: "/flan-2.jpg",
-  flan3: "/flan-3.jpg",
+  flan1: "/flan-gallery-1.jpg",
+  flan2: "/flan-gallery-2.jpg",
+  flan3: "/flan-gallery-3.jpg",
+  gallery1: "/flan-gallery-1.jpg",
+  gallery2: "/flan-gallery-2.jpg",
+  gallery3: "/flan-gallery-3.jpg",
+  gallery4: "/flan-gallery-4.jpg",
+  gallery5: "/flan-gallery-5.jpg",
   hero,
 };
 
